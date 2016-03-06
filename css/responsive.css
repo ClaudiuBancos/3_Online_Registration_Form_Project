@@ -1,0 +1,75 @@
+@media (min-width: 1024px) {
+
+/**********************************
+GENERAL STYLES
+***********************************/
+
+	.signup-header-container,
+	.form,
+	footer {
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+
+
+
+/**********************************
+FORM (General Styles)
+***********************************/
+
+	input[type="text"],
+	input[type="email"],
+	input[type="tel"],
+	select {
+		display: block;
+		margin: 0 0 20px 0;
+		width: 70%;
+		float: right;
+	}
+
+	.contact-info-fieldset label {
+		display: block;
+		padding-top: 20px;
+		width: 28%;
+		clear: right;
+		float: left;
+	}
+
+	.miscellaneous-section label {
+		display: block;
+		padding-top: 35px;
+		width: 28%;
+		clear: right;
+		float: left;
+	}
+
+	.miscellaneous-section input,
+	.miscellaneous-section select {
+		margin-top: 20px;
+	}
+
+	#favorite_programming_language {
+		margin-top: 30px;
+	}
+
+
+/**********************************
+FORM (Contact Information)
+***********************************/
+
+	#zip_code {
+		width: 25%;
+		margin-right: 45%;
+	}
+	
+
+
+/**********************************
+FORM (Newsletter)
+***********************************/
+
+	.newsletter-heading {
+		padding-top: 50px;
+	}
+
+}
